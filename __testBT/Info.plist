@@ -24,6 +24,12 @@
 	<true/>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>BLE</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Micro</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Library</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>bluetooth-central</string>
@@ -39,15 +45,8 @@
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
-		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>Camera</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Micro</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Library</string>
 </dict>
 </plist>

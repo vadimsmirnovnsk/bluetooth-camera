@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) double zoom;
 @property (nonatomic, assign) double temperature;
+@property (nonatomic, assign, readonly, getter=isRecording) BOOL recording;
 
 @property (nonatomic, weak) id<BTRCameraDeviceDelegate> delegate;
 @property (nonatomic, strong, readonly) AVCaptureSession *captureSession;

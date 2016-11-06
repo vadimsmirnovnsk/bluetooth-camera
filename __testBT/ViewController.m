@@ -4,7 +4,13 @@
 #import "BTRBluetoothControl.h"
 #import "BTRCameraDevice.h"
 
+#import "__testBT-Swift.h"
+
 @import AVFoundation;
+
+#define DEBUG 1
+
+static void * SessionRunningContext = &SessionRunningContext;
 
 @interface ViewController () <BTRBluetoothControlDelegate, BTRCameraDeviceDelegate>
 
@@ -12,6 +18,7 @@
 
 @property (nonatomic, strong, readonly) BTRBluetoothControl *bluetoothControl;
 @property (nonatomic, strong, readonly) BTRCameraDevice *cameraDevice;
+@property (nonatomic, strong, readonly) RedCameraView *redCameraView;
 
 @end
 
@@ -29,21 +36,24 @@
 	self.previewView = [[AVCamPreviewView alloc] initWithFrame:self.view.bounds];
 	[self.view addSubview:self.previewView];
 
+	_redCameraView = [[RedCameraView alloc] initWithFrame:self.view.bounds];
+	_redCameraView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+	[self.view addSubview:_redCameraView];
+
 	self.previewView.session = self.cameraDevice.captureSession;
 
 	[self.cameraDevice requestPermission];
 
-//	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera
-//																						   target:self
-//																						   action:@selector(changeCamera:)];
-//	self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera
-//																						   target:self
-//																						   action:@selector(toggleMovieRecording:)];
+
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
 	[super viewWillAppear:animated];
+
+#ifdef DEBUG
+	[self.navigationController setNavigationBarHidden:YES animated:animated];
+#endif
 
 	[self.cameraDevice setupWithResultBlock:^(AVCamSetupResult result) {
 		if (result == AVCamSetupResultCameraNotAuthorized) {
@@ -72,14 +82,17 @@
 
 - (void)bluetoothControl:(BTRBluetoothControl *)control didChangeZoomValue:(double)zoomValue {
 	self.cameraDevice.zoom = zoomValue;
+	self.redCameraView.panelTop.zoom = zoomValue;
 }
 
 - (void)bluetoothControl:(BTRBluetoothControl *)control didChangeTemperature:(double)temperature {
 	self.cameraDevice.temperature = temperature;
+	self.redCameraView.panelTop.temperature = temperature;
 }
 
 - (void)bluetoothControl:(BTRBluetoothControl *)control startRecord:(BOOL)start {
 	[self.cameraDevice toggleMovieRecordingWithOrientation:self.previewView.videoOrientation];
+	[self.redCameraView.panelBottom recordWithRecord:start];
 }
 
 - (void)bluetoothControlDidToggleCamera:(BTRBluetoothControl *)control {
