@@ -4,7 +4,13 @@
 #import "BTRBluetoothControl.h"
 #import "BTRCameraDevice.h"
 
+#import "__testBT-Swift.h"
+
 @import AVFoundation;
+
+#define DEBUG 1
+
+static void * SessionRunningContext = &SessionRunningContext;
 
 @interface ViewController () <BTRBluetoothControlDelegate, BTRCameraDeviceDelegate>
 
@@ -44,6 +50,10 @@
 - (void)viewWillAppear:(BOOL)animated
 {
 	[super viewWillAppear:animated];
+
+#ifdef DEBUG
+	[self.navigationController setNavigationBarHidden:YES animated:animated];
+#endif
 
 	[self.cameraDevice setupWithResultBlock:^(AVCamSetupResult result) {
 		if (result == AVCamSetupResultCameraNotAuthorized) {

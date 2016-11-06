@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		730206CB1DCF1C6000F6B1CE /* BTRBluetoothControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 730206CA1DCF1C6000F6B1CE /* BTRBluetoothControl.m */; };
 		730206CE1DCF2DD600F6B1CE /* BTRCameraDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 730206CD1DCF2DD600F6B1CE /* BTRCameraDevice.m */; };
+		30810B341DCF2E5E009E482E /* RedCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B331DCF2E5E009E482E /* RedCameraView.swift */; };
+		30810B371DCF2F3A009E482E /* RedCameraPanelTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B361DCF2F3A009E482E /* RedCameraPanelTopView.swift */; };
+		30810B391DCF2F79009E482E /* RedCameraPanelBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B381DCF2F79009E482E /* RedCameraPanelBottomView.swift */; };
+		401BABF5D889B981B22903DB /* Pods___testBT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB80807B2365BBBB508C197 /* Pods___testBT.framework */; };
 		73E71F731DCC79D300F25C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71F721DCC79D300F25C09 /* main.m */; };
 		73E71F761DCC79D300F25C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71F751DCC79D300F25C09 /* AppDelegate.m */; };
 		73E71F791DCC79D300F25C09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71F781DCC79D300F25C09 /* ViewController.m */; };
@@ -25,6 +29,11 @@
 		730206CA1DCF1C6000F6B1CE /* BTRBluetoothControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRBluetoothControl.m; sourceTree = "<group>"; };
 		730206CC1DCF2DD600F6B1CE /* BTRCameraDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRCameraDevice.h; sourceTree = "<group>"; };
 		730206CD1DCF2DD600F6B1CE /* BTRCameraDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRCameraDevice.m; sourceTree = "<group>"; };
+		0B50B08490A1593BA0DBB04B /* Pods-__testBT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-__testBT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-__testBT/Pods-__testBT.debug.xcconfig"; sourceTree = "<group>"; };
+		30810B321DCF2E5D009E482E /* __testBT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "__testBT-Bridging-Header.h"; sourceTree = "<group>"; };
+		30810B331DCF2E5E009E482E /* RedCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraView.swift; sourceTree = "<group>"; };
+		30810B361DCF2F3A009E482E /* RedCameraPanelTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraPanelTopView.swift; sourceTree = "<group>"; };
+		30810B381DCF2F79009E482E /* RedCameraPanelBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraPanelBottomView.swift; sourceTree = "<group>"; };
 		73E71F6E1DCC79D300F25C09 /* __testBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = __testBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E71F721DCC79D300F25C09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73E71F741DCC79D300F25C09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +48,8 @@
 		73E71F8B1DCC965D00F25C09 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		73E71F8D1DCC995200F25C09 /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
 		73E71F8E1DCC995200F25C09 /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
+		A0C94800CC8C8F2E0ED4653D /* Pods-__testBT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-__testBT.release.xcconfig"; path = "Pods/Target Support Files/Pods-__testBT/Pods-__testBT.release.xcconfig"; sourceTree = "<group>"; };
+		FFB80807B2365BBBB508C197 /* Pods___testBT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___testBT.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,18 +59,38 @@
 			files = (
 				73E71F8C1DCC965D00F25C09 /* AVFoundation.framework in Frameworks */,
 				73E71F8A1DCC79F300F25C09 /* CoreBluetooth.framework in Frameworks */,
+				401BABF5D889B981B22903DB /* Pods___testBT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30810B2E1DCF2D26009E482E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30810B351DCF2F11009E482E /* Red */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		30810B351DCF2F11009E482E /* Red */ = {
+			isa = PBXGroup;
+			children = (
+				30810B331DCF2E5E009E482E /* RedCameraView.swift */,
+				30810B361DCF2F3A009E482E /* RedCameraPanelTopView.swift */,
+				30810B381DCF2F79009E482E /* RedCameraPanelBottomView.swift */,
+			);
+			name = Red;
+			sourceTree = "<group>";
+		};
 		73E71F651DCC79D300F25C09 = {
 			isa = PBXGroup;
 			children = (
 				73E71F701DCC79D300F25C09 /* __testBT */,
 				73E71F6F1DCC79D300F25C09 /* Products */,
 				73E71F881DCC79F300F25C09 /* Frameworks */,
+				B7D58E04CC90128ECC01AF76 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +105,7 @@
 		73E71F701DCC79D300F25C09 /* __testBT */ = {
 			isa = PBXGroup;
 			children = (
+				30810B2E1DCF2D26009E482E /* Views */,
 				73E71F741DCC79D300F25C09 /* AppDelegate.h */,
 				73E71F751DCC79D300F25C09 /* AppDelegate.m */,
 				73E71F771DCC79D300F25C09 /* ViewController.h */,
@@ -96,6 +128,7 @@
 		73E71F711DCC79D300F25C09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				30810B321DCF2E5D009E482E /* __testBT-Bridging-Header.h */,
 				73E71F721DCC79D300F25C09 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -106,8 +139,18 @@
 			children = (
 				73E71F8B1DCC965D00F25C09 /* AVFoundation.framework */,
 				73E71F891DCC79F300F25C09 /* CoreBluetooth.framework */,
+				FFB80807B2365BBBB508C197 /* Pods___testBT.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7D58E04CC90128ECC01AF76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B50B08490A1593BA0DBB04B /* Pods-__testBT.debug.xcconfig */,
+				A0C94800CC8C8F2E0ED4653D /* Pods-__testBT.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73E71F851DCC79D300F25C09 /* Build configuration list for PBXNativeTarget "__testBT" */;
 			buildPhases = (
+				9C402B1F8F2F2B31154FE3B2 /* [CP] Check Pods Manifest.lock */,
 				73E71F6A1DCC79D300F25C09 /* Sources */,
 				73E71F6B1DCC79D300F25C09 /* Frameworks */,
 				73E71F6C1DCC79D300F25C09 /* Resources */,
+				545E21FA9E2D5EB1FDF35DCA /* [CP] Embed Pods Frameworks */,
+				9C79DFBA9EBE0EF2924A217D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,6 +188,7 @@
 					73E71F6D1DCC79D300F25C09 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 695938Y5Q8;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -182,12 +229,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		545E21FA9E2D5EB1FDF35DCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-__testBT/Pods-__testBT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C402B1F8F2F2B31154FE3B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C79DFBA9EBE0EF2924A217D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-__testBT/Pods-__testBT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		73E71F6A1DCC79D300F25C09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				730206CB1DCF1C6000F6B1CE /* BTRBluetoothControl.m in Sources */,
+				30810B371DCF2F3A009E482E /* RedCameraPanelTopView.swift in Sources */,
+				30810B391DCF2F79009E482E /* RedCameraPanelBottomView.swift in Sources */,
+				30810B341DCF2E5E009E482E /* RedCameraView.swift in Sources */,
 				73E71F791DCC79D300F25C09 /* ViewController.m in Sources */,
 				73E71F761DCC79D300F25C09 /* AppDelegate.m in Sources */,
 				730206CE1DCF2DD600F6B1CE /* BTRCameraDevice.m in Sources */,
@@ -308,27 +406,38 @@
 		};
 		73E71F861DCC79D300F25C09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B50B08490A1593BA0DBB04B /* Pods-__testBT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 695938Y5Q8;
 				INFOPLIST_FILE = __testBT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.nazabore.--testBT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "__testBT/__testBT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		73E71F871DCC79D300F25C09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C94800CC8C8F2E0ED4653D /* Pods-__testBT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 695938Y5Q8;
 				INFOPLIST_FILE = __testBT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.nazabore.--testBT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "__testBT/__testBT-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
