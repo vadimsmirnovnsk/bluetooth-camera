@@ -92,6 +92,7 @@ static void * SessionRunningContext = &SessionRunningContext;
 
 - (void)bluetoothControl:(BTRBluetoothControl *)control startRecord:(BOOL)start {
 	[self.cameraDevice toggleMovieRecordingWithOrientation:self.previewView.videoOrientation];
+	[self.redCameraView.panelBottom recordWithRecord:start];
 }
 
 - (void)bluetoothControlDidToggleCamera:(BTRBluetoothControl *)control {

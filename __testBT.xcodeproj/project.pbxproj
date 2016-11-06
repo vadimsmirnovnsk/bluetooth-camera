@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		730206CB1DCF1C6000F6B1CE /* BTRBluetoothControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 730206CA1DCF1C6000F6B1CE /* BTRBluetoothControl.m */; };
-		730206CE1DCF2DD600F6B1CE /* BTRCameraDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 730206CD1DCF2DD600F6B1CE /* BTRCameraDevice.m */; };
 		30810B341DCF2E5E009E482E /* RedCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B331DCF2E5E009E482E /* RedCameraView.swift */; };
 		30810B371DCF2F3A009E482E /* RedCameraPanelTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B361DCF2F3A009E482E /* RedCameraPanelTopView.swift */; };
 		30810B391DCF2F79009E482E /* RedCameraPanelBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B381DCF2F79009E482E /* RedCameraPanelBottomView.swift */; };
@@ -22,6 +20,8 @@
 		30810B4A1DCF42CB009E482E /* RedCameraFieldCompress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B491DCF42CB009E482E /* RedCameraFieldCompress.swift */; };
 		30810B4C1DCF4367009E482E /* RedCameraFieldZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B4B1DCF4367009E482E /* RedCameraFieldZoom.swift */; };
 		401BABF5D889B981B22903DB /* Pods___testBT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB80807B2365BBBB508C197 /* Pods___testBT.framework */; };
+		730206CB1DCF1C6000F6B1CE /* BTRBluetoothControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 730206CA1DCF1C6000F6B1CE /* BTRBluetoothControl.m */; };
+		730206CE1DCF2DD600F6B1CE /* BTRCameraDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 730206CD1DCF2DD600F6B1CE /* BTRCameraDevice.m */; };
 		73E71F731DCC79D300F25C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71F721DCC79D300F25C09 /* main.m */; };
 		73E71F761DCC79D300F25C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71F751DCC79D300F25C09 /* AppDelegate.m */; };
 		73E71F791DCC79D300F25C09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71F781DCC79D300F25C09 /* ViewController.m */; };
@@ -34,10 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		730206C91DCF1C6000F6B1CE /* BTRBluetoothControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRBluetoothControl.h; sourceTree = "<group>"; };
-		730206CA1DCF1C6000F6B1CE /* BTRBluetoothControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRBluetoothControl.m; sourceTree = "<group>"; };
-		730206CC1DCF2DD600F6B1CE /* BTRCameraDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRCameraDevice.h; sourceTree = "<group>"; };
-		730206CD1DCF2DD600F6B1CE /* BTRCameraDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRCameraDevice.m; sourceTree = "<group>"; };
 		0B50B08490A1593BA0DBB04B /* Pods-__testBT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-__testBT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-__testBT/Pods-__testBT.debug.xcconfig"; sourceTree = "<group>"; };
 		30810B321DCF2E5D009E482E /* __testBT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "__testBT-Bridging-Header.h"; sourceTree = "<group>"; };
 		30810B331DCF2E5E009E482E /* RedCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraView.swift; sourceTree = "<group>"; };
@@ -52,6 +48,10 @@
 		30810B471DCF421E009E482E /* RedCameraFieldAspect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraFieldAspect.swift; sourceTree = "<group>"; };
 		30810B491DCF42CB009E482E /* RedCameraFieldCompress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraFieldCompress.swift; sourceTree = "<group>"; };
 		30810B4B1DCF4367009E482E /* RedCameraFieldZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraFieldZoom.swift; sourceTree = "<group>"; };
+		730206C91DCF1C6000F6B1CE /* BTRBluetoothControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRBluetoothControl.h; sourceTree = "<group>"; };
+		730206CA1DCF1C6000F6B1CE /* BTRBluetoothControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRBluetoothControl.m; sourceTree = "<group>"; };
+		730206CC1DCF2DD600F6B1CE /* BTRCameraDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRCameraDevice.h; sourceTree = "<group>"; };
+		730206CD1DCF2DD600F6B1CE /* BTRCameraDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRCameraDevice.m; sourceTree = "<group>"; };
 		73E71F6E1DCC79D300F25C09 /* __testBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = __testBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E71F721DCC79D300F25C09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73E71F741DCC79D300F25C09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,10 +95,9 @@
 		30810B351DCF2F11009E482E /* Red */ = {
 			isa = PBXGroup;
 			children = (
-				30810B3C1DCF37D2009E482E /* Fileds */,
+				30810B4E1DCF48E4009E482E /* BottomPanel */,
+				30810B4D1DCF48D6009E482E /* TopPanel */,
 				30810B331DCF2E5E009E482E /* RedCameraView.swift */,
-				30810B361DCF2F3A009E482E /* RedCameraPanelTopView.swift */,
-				30810B381DCF2F79009E482E /* RedCameraPanelBottomView.swift */,
 			);
 			name = Red;
 			sourceTree = "<group>";
@@ -117,6 +116,23 @@
 				30810B4B1DCF4367009E482E /* RedCameraFieldZoom.swift */,
 			);
 			name = Fileds;
+			sourceTree = "<group>";
+		};
+		30810B4D1DCF48D6009E482E /* TopPanel */ = {
+			isa = PBXGroup;
+			children = (
+				30810B3C1DCF37D2009E482E /* Fileds */,
+				30810B361DCF2F3A009E482E /* RedCameraPanelTopView.swift */,
+			);
+			name = TopPanel;
+			sourceTree = "<group>";
+		};
+		30810B4E1DCF48E4009E482E /* BottomPanel */ = {
+			isa = PBXGroup;
+			children = (
+				30810B381DCF2F79009E482E /* RedCameraPanelBottomView.swift */,
+			);
+			name = BottomPanel;
 			sourceTree = "<group>";
 		};
 		73E71F651DCC79D300F25C09 = {

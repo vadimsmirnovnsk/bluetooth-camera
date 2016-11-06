@@ -31,6 +31,10 @@ static void * SessionRunningContext = &SessionRunningContext;
 
 #pragma mark Public
 
+- (BOOL)isRecording {
+	return self.movieFileOutput.isRecording;
+}
+
 - (void)toggleMovieRecordingWithOrientation:(AVCaptureVideoOrientation)orientation {
 	dispatch_async( self.sessionQueue, ^{
 		if ( ! self.movieFileOutput.isRecording ) {

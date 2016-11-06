@@ -81,7 +81,7 @@ class RedCameraPanelTopView: UIView {
 
 		// Layout
 		self.snp.makeConstraints { (make) in
-			make.height.equalTo(44.0)
+			make.height.equalTo(40.0)
 		}
 	}
 
