@@ -12,6 +12,15 @@
 		30810B341DCF2E5E009E482E /* RedCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B331DCF2E5E009E482E /* RedCameraView.swift */; };
 		30810B371DCF2F3A009E482E /* RedCameraPanelTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B361DCF2F3A009E482E /* RedCameraPanelTopView.swift */; };
 		30810B391DCF2F79009E482E /* RedCameraPanelBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B381DCF2F79009E482E /* RedCameraPanelBottomView.swift */; };
+		30810B3B1DCF35B9009E482E /* RedCameraField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B3A1DCF35B9009E482E /* RedCameraField.swift */; };
+		30810B3E1DCF37EC009E482E /* RedCameraFieldFPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B3D1DCF37EC009E482E /* RedCameraFieldFPS.swift */; };
+		30810B401DCF3E67009E482E /* RedCamersFieldISO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B3F1DCF3E67009E482E /* RedCamersFieldISO.swift */; };
+		30810B421DCF3F0D009E482E /* RedCameraFieldShutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B411DCF3F0D009E482E /* RedCameraFieldShutter.swift */; };
+		30810B441DCF4023009E482E /* RedCameraFieldAperture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B431DCF4023009E482E /* RedCameraFieldAperture.swift */; };
+		30810B461DCF411A009E482E /* RedCameraFieldTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B451DCF411A009E482E /* RedCameraFieldTemperature.swift */; };
+		30810B481DCF421E009E482E /* RedCameraFieldAspect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B471DCF421E009E482E /* RedCameraFieldAspect.swift */; };
+		30810B4A1DCF42CB009E482E /* RedCameraFieldCompress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B491DCF42CB009E482E /* RedCameraFieldCompress.swift */; };
+		30810B4C1DCF4367009E482E /* RedCameraFieldZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30810B4B1DCF4367009E482E /* RedCameraFieldZoom.swift */; };
 		401BABF5D889B981B22903DB /* Pods___testBT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB80807B2365BBBB508C197 /* Pods___testBT.framework */; };
 		73E71F731DCC79D300F25C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71F721DCC79D300F25C09 /* main.m */; };
 		73E71F761DCC79D300F25C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71F751DCC79D300F25C09 /* AppDelegate.m */; };
@@ -34,6 +43,15 @@
 		30810B331DCF2E5E009E482E /* RedCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraView.swift; sourceTree = "<group>"; };
 		30810B361DCF2F3A009E482E /* RedCameraPanelTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraPanelTopView.swift; sourceTree = "<group>"; };
 		30810B381DCF2F79009E482E /* RedCameraPanelBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraPanelBottomView.swift; sourceTree = "<group>"; };
+		30810B3A1DCF35B9009E482E /* RedCameraField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraField.swift; sourceTree = "<group>"; };
+		30810B3D1DCF37EC009E482E /* RedCameraFieldFPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraFieldFPS.swift; sourceTree = "<group>"; };
+		30810B3F1DCF3E67009E482E /* RedCamersFieldISO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCamersFieldISO.swift; sourceTree = "<group>"; };
+		30810B411DCF3F0D009E482E /* RedCameraFieldShutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraFieldShutter.swift; sourceTree = "<group>"; };
+		30810B431DCF4023009E482E /* RedCameraFieldAperture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraFieldAperture.swift; sourceTree = "<group>"; };
+		30810B451DCF411A009E482E /* RedCameraFieldTemperature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraFieldTemperature.swift; sourceTree = "<group>"; };
+		30810B471DCF421E009E482E /* RedCameraFieldAspect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraFieldAspect.swift; sourceTree = "<group>"; };
+		30810B491DCF42CB009E482E /* RedCameraFieldCompress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraFieldCompress.swift; sourceTree = "<group>"; };
+		30810B4B1DCF4367009E482E /* RedCameraFieldZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCameraFieldZoom.swift; sourceTree = "<group>"; };
 		73E71F6E1DCC79D300F25C09 /* __testBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = __testBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E71F721DCC79D300F25C09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73E71F741DCC79D300F25C09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,11 +95,28 @@
 		30810B351DCF2F11009E482E /* Red */ = {
 			isa = PBXGroup;
 			children = (
+				30810B3C1DCF37D2009E482E /* Fileds */,
 				30810B331DCF2E5E009E482E /* RedCameraView.swift */,
 				30810B361DCF2F3A009E482E /* RedCameraPanelTopView.swift */,
 				30810B381DCF2F79009E482E /* RedCameraPanelBottomView.swift */,
 			);
 			name = Red;
+			sourceTree = "<group>";
+		};
+		30810B3C1DCF37D2009E482E /* Fileds */ = {
+			isa = PBXGroup;
+			children = (
+				30810B3A1DCF35B9009E482E /* RedCameraField.swift */,
+				30810B3D1DCF37EC009E482E /* RedCameraFieldFPS.swift */,
+				30810B3F1DCF3E67009E482E /* RedCamersFieldISO.swift */,
+				30810B411DCF3F0D009E482E /* RedCameraFieldShutter.swift */,
+				30810B431DCF4023009E482E /* RedCameraFieldAperture.swift */,
+				30810B451DCF411A009E482E /* RedCameraFieldTemperature.swift */,
+				30810B471DCF421E009E482E /* RedCameraFieldAspect.swift */,
+				30810B491DCF42CB009E482E /* RedCameraFieldCompress.swift */,
+				30810B4B1DCF4367009E482E /* RedCameraFieldZoom.swift */,
+			);
+			name = Fileds;
 			sourceTree = "<group>";
 		};
 		73E71F651DCC79D300F25C09 = {
@@ -283,14 +318,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				730206CB1DCF1C6000F6B1CE /* BTRBluetoothControl.m in Sources */,
+				30810B4C1DCF4367009E482E /* RedCameraFieldZoom.swift in Sources */,
+				30810B4A1DCF42CB009E482E /* RedCameraFieldCompress.swift in Sources */,
+				30810B421DCF3F0D009E482E /* RedCameraFieldShutter.swift in Sources */,
 				30810B371DCF2F3A009E482E /* RedCameraPanelTopView.swift in Sources */,
+				30810B3E1DCF37EC009E482E /* RedCameraFieldFPS.swift in Sources */,
 				30810B391DCF2F79009E482E /* RedCameraPanelBottomView.swift in Sources */,
 				30810B341DCF2E5E009E482E /* RedCameraView.swift in Sources */,
+				30810B481DCF421E009E482E /* RedCameraFieldAspect.swift in Sources */,
 				73E71F791DCC79D300F25C09 /* ViewController.m in Sources */,
 				73E71F761DCC79D300F25C09 /* AppDelegate.m in Sources */,
 				730206CE1DCF2DD600F6B1CE /* BTRCameraDevice.m in Sources */,
 				73E71F8F1DCC995200F25C09 /* AVCamPreviewView.m in Sources */,
 				73E71F731DCC79D300F25C09 /* main.m in Sources */,
+				30810B3B1DCF35B9009E482E /* RedCameraField.swift in Sources */,
+				30810B401DCF3E67009E482E /* RedCamersFieldISO.swift in Sources */,
+				30810B441DCF4023009E482E /* RedCameraFieldAperture.swift in Sources */,
+				30810B461DCF411A009E482E /* RedCameraFieldTemperature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +457,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 695938Y5Q8;
 				INFOPLIST_FILE = __testBT/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.nazabore.--testBT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,7 +476,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 695938Y5Q8;
 				INFOPLIST_FILE = __testBT/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.nazabore.--testBT";
 				PRODUCT_NAME = "$(TARGET_NAME)";

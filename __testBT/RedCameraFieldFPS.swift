@@ -2,22 +2,29 @@ import Foundation
 import UIKit
 import SnapKit
 
-class RedCameraFieldFPSView: RedCameraField {
+class RedCameraFieldFPS: RedCameraField {
 
 	private let fpsLabel = UILabel()
 
 	var fps: Double = 0.0 {
 		didSet {
-			
+			let fpsString = String(format: "%.2f", self.fps)
+			fpsLabel.text = fpsString + "FPS"
 		}
 	}
 
 	override init(frame: CGRect) {
 		super.init(frame: frame)
 
+		fpsLabel.textColor = UIColor.white
+		fpsLabel.font = UIFont.systemFont(ofSize: 16.0)
+		fpsLabel.textAlignment = .center
+		addSubview(fpsLabel)
+
 		// Layout
-		self.snp.makeConstraints { (make) in
-			make.height.equalTo(50.0)
+
+		fpsLabel.snp.makeConstraints { (make) in
+			make.edges.equalTo(self)
 		}
 	}
 
