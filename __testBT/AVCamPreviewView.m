@@ -12,23 +12,27 @@
 
 @implementation AVCamPreviewView
 
-+ (Class)layerClass
-{
++ (Class)layerClass {
 	return [AVCaptureVideoPreviewLayer class];
 }
 
-- (AVCaptureVideoPreviewLayer *)videoPreviewLayer
-{
+- (AVCaptureVideoPreviewLayer *)videoPreviewLayer {
 	return (AVCaptureVideoPreviewLayer *)self.layer;
 }
 
-- (AVCaptureSession *)session
-{
+- (AVCaptureSession *)session {
 	return self.videoPreviewLayer.session;
 }
 
-- (void)setSession:(AVCaptureSession *)session
-{
+- (void)setVideoOrientation:(AVCaptureVideoOrientation)videoOrientation {
+	self.videoPreviewLayer.connection.videoOrientation = videoOrientation;
+}
+
+- (AVCaptureVideoOrientation)videoOrientation {
+	return self.videoPreviewLayer.connection.videoOrientation;
+}
+
+- (void)setSession:(AVCaptureSession *)session {
 	self.videoPreviewLayer.session = session;
 }
 

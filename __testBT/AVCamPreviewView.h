@@ -14,7 +14,7 @@
 @interface AVCamPreviewView : UIView
 
 @property (nonatomic, readonly) AVCaptureVideoPreviewLayer *videoPreviewLayer;
-
+@property (nonatomic, assign) AVCaptureVideoOrientation videoOrientation;
 @property (nonatomic) AVCaptureSession *session;
 
 @end

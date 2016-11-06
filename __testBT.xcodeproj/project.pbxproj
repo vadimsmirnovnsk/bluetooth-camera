@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730206CB1DCF1C6000F6B1CE /* BTRBluetoothControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 730206CA1DCF1C6000F6B1CE /* BTRBluetoothControl.m */; };
+		730206CE1DCF2DD600F6B1CE /* BTRCameraDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 730206CD1DCF2DD600F6B1CE /* BTRCameraDevice.m */; };
 		73E71F731DCC79D300F25C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71F721DCC79D300F25C09 /* main.m */; };
 		73E71F761DCC79D300F25C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71F751DCC79D300F25C09 /* AppDelegate.m */; };
 		73E71F791DCC79D300F25C09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71F781DCC79D300F25C09 /* ViewController.m */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		730206C91DCF1C6000F6B1CE /* BTRBluetoothControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRBluetoothControl.h; sourceTree = "<group>"; };
+		730206CA1DCF1C6000F6B1CE /* BTRBluetoothControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRBluetoothControl.m; sourceTree = "<group>"; };
+		730206CC1DCF2DD600F6B1CE /* BTRCameraDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRCameraDevice.h; sourceTree = "<group>"; };
+		730206CD1DCF2DD600F6B1CE /* BTRCameraDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRCameraDevice.m; sourceTree = "<group>"; };
 		73E71F6E1DCC79D300F25C09 /* __testBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = __testBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E71F721DCC79D300F25C09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73E71F741DCC79D300F25C09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +85,10 @@
 				73E71F7F1DCC79D300F25C09 /* LaunchScreen.storyboard */,
 				73E71F821DCC79D300F25C09 /* Info.plist */,
 				73E71F711DCC79D300F25C09 /* Supporting Files */,
+				730206C91DCF1C6000F6B1CE /* BTRBluetoothControl.h */,
+				730206CA1DCF1C6000F6B1CE /* BTRBluetoothControl.m */,
+				730206CC1DCF2DD600F6B1CE /* BTRCameraDevice.h */,
+				730206CD1DCF2DD600F6B1CE /* BTRCameraDevice.m */,
 			);
 			path = __testBT;
 			sourceTree = "<group>";
@@ -177,8 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730206CB1DCF1C6000F6B1CE /* BTRBluetoothControl.m in Sources */,
 				73E71F791DCC79D300F25C09 /* ViewController.m in Sources */,
 				73E71F761DCC79D300F25C09 /* AppDelegate.m in Sources */,
+				730206CE1DCF2DD600F6B1CE /* BTRCameraDevice.m in Sources */,
 				73E71F8F1DCC995200F25C09 /* AVCamPreviewView.m in Sources */,
 				73E71F731DCC79D300F25C09 /* main.m in Sources */,
 			);
